@@ -98,6 +98,7 @@
     align-items: center;
   }
 }
+
  .main-banner-text{
    display: inline-block;
    color: #fff;
@@ -107,3 +108,29 @@
    width: 26%;
    margin-top: 80px;
  }
+
+ /* text banner */
+
+.text-banner{
+  height: 240px;
+  background-color: #fff;
+}
+
+.text-banner-content{
+  text-align: center;
+}
+
+.text-banner-title {
+  font-size: 2.25em;
+  font-family: 'DINPro-Regular';
+  display: inline-block;
+  width: 63%;
+  margin-top: 53px;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'DINPro-Regular';
+  src: url('../fonts/DINPro-Regular.otf');
+  font-style: normal;
+}
