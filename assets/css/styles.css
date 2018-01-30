@@ -129,8 +129,128 @@
   font-weight: 700;
 }
 
+@media only screen and (max-width: 500px) {
+  .text-banner-title {
+    font-size: 2.25em;
+    font-family: 'DINPro-Regular';
+    display: inline-block;
+    width: 100%;
+    margin-top: 53px;
+    font-weight: 700;
+  }
+}
+
 @font-face {
   font-family: 'DINPro-Regular';
   src: url('../fonts/DINPro-Regular.otf');
   font-style: normal;
+}
+
+
+/* footer */
+
+footer {
+    background-color: #081323;
+    padding: 42px 0 10px 0;
+    color: #fff;
+    font-size: 14px;
+}
+
+.logo-footer{
+    float: left;
+    margin-right: 30px;
+}
+
+.text-copyrights{
+  float: left;
+  margin-right: 15px;
+  margin-top: 5px;
+}
+
+.footer-tabs {
+  margin-bottom: 0;
+  float: left;
+  padding: 0;
+  list-style: none;
+  margin-top: 5px;
+}
+footer .footer-tabs li {
+    float: left;
+    position: relative;
+  }
+
+  footer .footer-tabs li a {
+    color: #68788c;
+    font-size: 14px;
+    padding: 0 12px;
+    display: block;
+    position: relative;
+}
+
+@media only screen and (min-width: 500px) {
+  footer .footer-tabs li a:before {
+    content: "/";
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+}
+
+.social-media {
+  float: right;
+}
+
+.fb {
+  margin-left: 20px;
+  color: #68788c;
+}
+
+.fb-img{
+  margin-right: 10px;
+  vertical-align: middle;
+  border: 0;
+}
+
+
+.twitter {
+  margin-left: 20px;
+  color: #68788c;
+}
+
+.twitter-img{
+  margin-right: 10px;
+  vertical-align: middle;
+  border: 0;
+}
+
+@media only screen and (max-width: 500px) {
+  .social-media {
+    float: left;
+    margin-top: 10px;
+  }
+  .logo-footer {
+    margin-left: 18px;
+  }
+  footer .footer-tabs li {
+    display: block;
+    float: left;
+    margin-right: 100px;
+  }
+  .footer-tabs {
+    margin-bottom: 0;
+    /* margin-top: 10px; */
+    margin-left: 8px;
+    float: left;
+    padding: 7px;
+    list-style: none;
+    margin-top: 5px;
+}
+
+.text-copyrights {
+    float: right;
+    margin-right: 29px;
+    margin-top: 5px;
+}
+
 }
