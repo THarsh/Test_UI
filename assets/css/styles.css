@@ -1,1 +1,72 @@
 /*-----css - styles----*/
+
+.header {
+  display: block;
+}
+
+.header .navbar {
+  background-color: #07142a;
+  border-radius: 0;
+  border: none;
+  min-height: 70px;
+  margin-bottom: 0;
+}
+
+.logo {
+  height: 70px;
+  float: left;
+  padding: 15px 15px;
+  font-size: 18px;
+  line-height: 20px;
+  height: 50px;
+}
+
+.btn.btn-primary .btn-outline {
+  color: #d3203e;
+  background: 0 0;
+}
+
+.header-btn-set {
+  margin-top: 13px;
+}
+
+.header-buttton {
+  background-color: #07142a;
+  border-color: #d3203e;
+  transition: all .5s ease;
+  padding: 10px 32px;
+  color: #d3203e;
+  border-color: #d3203e;
+  padding: 10px 32px;
+  border-radius: 0px;
+}
+
+.header-buttton:hover {
+  background-color: #d3203e;
+  border-color: #d3203e;
+  transition: all .5s ease;
+  padding: 10px 32px;
+  color: #fff;
+  border-color: #d3203e;
+  padding: 10px 32px;
+  border-radius: 0px;
+}
+
+.header-buttton-reg {
+  background-color: #d3203e;
+  border-color: #d3203e;
+  transition: all .5s ease;
+  padding: 10px 32px;
+  color: #fff;
+  border-color: #d3203e;
+  padding: 10px 32px;
+  border-radius: 0px;
+  margin-left: 20px;
+}
+
+@media only screen and (max-width: 500px) {
+  .header-btn-set {
+    margin-top: -37px;
+    margin-right: 5px;
+  }
+}
