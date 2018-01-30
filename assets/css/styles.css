@@ -1,5 +1,8 @@
 /*-----css - styles----*/
 
+
+/* nav bar */
+
 .header {
   display: block;
 }
@@ -70,3 +73,37 @@
     margin-right: 5px;
   }
 }
+
+/*  main banner */
+.main-banner{
+    background: url(../images/banner1.png) no-repeat;
+    height: 250px;
+    width: 100%;
+    background-size: cover;
+
+ }
+
+ @media only screen and (max-width: 500px) {
+  .main-banner {
+    background: url(../images/banner1.png) no-repeat;
+    height: 184px;
+    background-position: right;
+    background-size: cover;
+  }
+  .main-banner-text {
+    font-size: 20px !important;
+    text-align: center  !important;
+    width: 50% !important;
+    margin-top: 60px  !important;
+    align-items: center;
+  }
+}
+ .main-banner-text{
+   display: inline-block;
+   color: #fff;
+   font-size: 30px;
+   font-weight: 700;
+   text-transform: uppercase;
+   width: 26%;
+   margin-top: 80px;
+ }
